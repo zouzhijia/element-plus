@@ -60,7 +60,7 @@ export function useDragNodeHandler({ props, ctx, el$, dropIndicator$, store }) {
       removeClass(oldDropNode.$el, ns.is('drop-inner'))
     }
     const draggingNode = dragState.value.draggingNode
-    if (!draggingNode || !dropNode) return
+  
 
     let dropPrev = true
     let dropInner = true
